@@ -17,7 +17,7 @@ paginate: 5         # Number of posts to show per page on the blog
 # Defaults for your posts
 defaults:
   - scope:
-      path: ""     # This will apply to all files in your project
+      path: "_posts"    
       type: posts
     values:
       layout: post
