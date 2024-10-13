@@ -1,0 +1,271 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Palatino', sans-serif;
+}
+
+body, h1,h2,h3,h4,h5,h6 {font-family: "Palatino", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+body {
+  margin: 0;
+  font-family: "Palatino", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #444;
+  text-align: left;
+  background-color: #fff;
+}
+
+
+header {
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0rem;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+nav.navbar {
+   width: 100%;
+   overflow: auto;
+   text-align: center;
+}
+nav.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+nav.navbar li {
+  display: inline;
+}
+nav.navbar li a {
+  padding: 5px 7px;
+  margin: 2px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 18%;
+  display: inline-block;
+}
+nav.navbar li a:link, a:visited {
+  background-color: #1D5C63;
+  color: white
+}
+nav.navbar ul li a:hover, a:active {
+  background-color: #lightgrey;
+}
+section#intro.left_half {
+  background-color: white;
+   color: black;
+   margin: 20px;
+   padding: 20px;
+   width: 49%;
+}
+section#intro {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+section#intro h3 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+section#intro p{
+text-align: centre;
+margin: 2rem;
+}
+section#intro img{
+  margin: 3rem;
+  width:200px;
+  float: left
+}
+section#intro a:hover, a:active {
+  background-color: lightgrey;
+  color: black
+}
+section#intro a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+section#purpose h1, p{
+  margin:3rem;
+}
+section#gallery h1, p{
+    margin:3rem;
+}
+section#gallery a:hover, a:active {
+  background-color: lightgrey;
+  color: black
+  }
+section#gallery a:link, a:visited {
+  background-color: white;
+  color: black;
+  margin:3rem;
+  border: 2px solid black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+section#contact {
+  background-color: black;
+}
+section#contact h1, p{
+  text-align: center;
+  margin: 3rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  padding: 0.5rem;
+  margin: 0 auto;
+  border: 2px solid black;
+  background-color: white;
+
+}
+form input,
+form textarea {
+  margin: 1rem;
+  padding: 0.5rem;
+  border:  1px solid black;;
+  border-radius: 5px;
+}
+form textarea {
+  resize: vertical;
+}
+form button {
+  padding: 1  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  margin:3rem;
+  border: 2px solid black;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  text-decoration: none;
+}
+form button:hover {
+  background-color: lightgrey;
+}
+
+
+main#portfolio {
+  padding:3rem;
+}
+section.instructions-gallery {
+  text-align: left;
+}
+section#gallery-img
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0.6px;
+  float: left;
+  width: 48.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+}
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.footer-container {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-nav {
+  list-style: none;
+  margin: 2rem;
+  padding: 0;
+  display: inline;
+
+}
+.footer-nav li {
+  margin-right: 20px;
+}
+
+.footer-nav li:last-child {
+  margin-right: 0;
+}
+.footer-nav a:link, a:visited {
+}
+.footer.nav img {
+  float: left; 
+  width:100px;
+  padding-right: ;
+}
+.fa {
+  padding: 2 rem;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+
