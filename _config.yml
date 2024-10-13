@@ -1,0 +1,23 @@
+title: "Amelia Flynn"
+description: ""
+theme: minima  # You can change this to any supported GitHub Pages theme
+baseurl: ""    # Leave this blank unless your site is in a subdirectory
+url: "https://flynnamelia.github.io"  # Your site's URL
+
+# Social links (optional)
+social:
+  twitter: your_twitter_handle
+  github: your_github_handle
+  linkedin: amelia-f-399a79294
+
+# Blog settings
+markdown: kramdown  # This ensures markdown files are processed
+paginate: 5         # Number of posts to show per page on the blog
+
+# Defaults for your posts
+defaults:
+  - scope:
+      path: ""     # This will apply to all files in your project
+      type: posts
+    values:
+      layout: post
