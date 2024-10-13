@@ -1,74 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Amelia Flynn - Student Portfolio</title>
-  <link rel="stylesheet" href="webstyle.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio | Your Name</title>
+    <link rel="stylesheet" href="css/styles.css"> <!-- Optional: Add your CSS file here -->
 </head>
 <body>
-  <header>
-    <nav class="navbar">
-        <ul>
-          <a href="home.html"><img style="float: left; width:50px;" src="logo.png"></a>
-          <li><a href="home.html">Home</a></li>
-          <li><a href="one.html">About</a></li>
-          <li><a href="two.html">Gallery</a></li>
-        </ul>
-    </nav>
-    <img src="logoname.png" alt="portfolio logo" style="display: block;margin-left: auto;margin-right: auto;width:100%; padding: 0px;">
-  </header>
-  <section id="purpose">
-    <h1 style="text-align: center;">Welcome to my portfolio!</h1>
-    <p>This website is a collection of my artwork from my last two years of high school and my frst two years of University that I created as my final project for my Intro to Web Design and Development course. I've been meaning to update my <a href="https://flyna7901.wixsite.com/ameliaf-art">old art portfolio website</a> that I created back in 2021 to use for university applications for a while now, so when we were asked to create a website that tells the reader about a topic of our choice, such as a hobby or a portfolio, I was excited for an opportunity to check one thing off my to-do list and also apply the skills and knowledge about web design that I've gained over the last twelve weeks. Now that I'm halfway through my undergraduate degree, I hope that this website acts as a reflection of how much both my understanding of art and my artistic skillset has evolved since my final years of high school. <br> <br> In building this portfolio, it became clear to me that the website I use to display my artwork online is more than just pre-made infrastructure used to house images of my work, like a physical portfolio, a gallery wall or a Wix template. The process of learning how to put together a visual display from textual characters has taught me that the website used to display my artwork can be a work of art in itself. As I wrote lines of HTML to showcase my artwork, I started to question why I had previously understood visual art and computer science as binary opposites. Coding a basic website with HTML and CSS is not entirely unlike painting a picture: basic instruments (like colours of paint or machine-readable elements), when combined with human creativity, produce accessible designs that humans can interpret and appreciate. For me, HTML and CSS aren't only the building blocks of my introduction to web design; they are a gateway into a new medium.
-</p>
-  </section>
-  <section id="intro" style="background-color: black;"><img src="painting.jpg" alt="Photo of Amelia Flynn" style="width:300 px">
-      <h1 style="color: white;">About me:</h1>
-      <p style="text-align: left; color: white;">My name is Amelia and I am a second year student at the University of Guelph majoring in English with minors in Culture and Technology Studies and Studio Art.<br>Of my many interests, most of my research has focused on digital humanities, women's writing, print history in art and literature, critical theory, comparative literature, and contemporary poetry.</p>
-      <a href="one.html" target="_blank">Click here to get to know me better!</a>
-  </section>
-  <section style="text-align:center;" id="gallery">
-      <h1 style="text-align: center;">Come visit my gallery!</h1>
-      <a href="two.html" class="cta-btn">All</a>
-      <a href="two.html#painting" class="cta-btn">Painting</a>
-      <a href="two.html#drawing" class="cta-btn">Drawings and Sketches</a>
-      <a href="two.html#print" class="cta-btn">Print</a>
-      <a href="two.html#sculpture" class="cta-btn">Sculpture</a>
-      <a href="two.html#web" class="cta-btn">Web Design</a>
-    </div>
-    </section>
 
+    <!-- Header with Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/assets/cv.pdf" target="_blank">CV/Resume</a></li> <!-- Link to your CV/Resume -->
+            </ul>
+        </nav>
+    </header>
 
-  <section id="contact">
-    <br>
-      <form action="contact.php" method="post">
-        <h1>Contact Me</h1>
-        <p>If you're interested in my work or have any inquiries, feel free to get in touch with me in the form above or on social media.</p>
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" placeholder="Your Message" required></textarea>
-        <button type="submit" class="btn">Send Message</button>
-      </form>
-    </div>
-  </section>
+    <!-- Main Section -->
+    <main>
+        <!-- About Me Section -->
+        <section id="about">
+            <h1>About Me</h1>
+            <p>Hi, I'm [Your Name], an undergraduate student studying [Your Major]. My interests lie in [Your Interests], and I have experience in [Skills]. Check out my <a href="/assets/cv.pdf" target="_blank">CV/Resume</a> for more details!</p>
+        </section>
 
-  <footer>
-  <div class="footer-container"> 
-    <!--<img style="float: left; width:100px;" src="logo.png">-->
-    <ul class="footer-nav">
-      <li><a href="home.html" style="color: whitesmoke;">Home</a></li>
-      <li><a href="one.html" style="color: whitesmoke;">About</a></li>
-      <li><a href="two.html" style="color: whitesmoke;">Gallery</a></li>
-    </ul>
-    <div class="social-icons">
-      <br>
-      <a href="https://www.instagram.com/ameliaflynn_/" class="fa fa-instagram" style="font-size:36px; color:white"></a> 
-      <a href="https://www.facebook.com/profile.php?id=100071383939056" class="fa fa-facebook" style="font-size:36px; color: white;"></a>  
-      <a href="mailto:aflynn04@uoguelph.ca" class="fa fa-envelope" style="font-size:36px; color: white;"></a>
-    </div>
-  </div>
-</footer> 
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><a href="/projects/project1.html">Project 1: [Course Name]</a></li>
+                <li><a href="/projects/project2.html">Project 2: [Course Name]</a></li>
+                <li><a href="/projects/project3.html">Project 3: [Course Name]</a></li>
+            </ul>
+            <p>Visit my <a href="/projects/">projects page</a> to see more.</p>
+        </section>
+
+        <!-- Blog Section -->
+        <section id="blog">
+            <h2>Latest Blog Posts</h2>
+            <ul>
+                <li><a href="/blog/2024-10-13-first-post.md">Blog Post 1</a></li>
+                <li><a href="/blog/2024-10-10-second-post.md">Blog Post 2</a></li>
+                <li><a href="/blog/2024-10-05-third-post.md">Blog Post 3</a></li>
+            </ul>
+            <p>Visit my <a href="/blog/">blog page</a> for more posts.</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Your Name. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
